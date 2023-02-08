@@ -10,7 +10,7 @@ while (times != "sair") {
   times = prompt("Digite o nome de um time para saber os seus títulos: ou digite sair")//entrada para digitar um nome de um time e saber todos os seus títulos;
 
   if (times == "Palmeiras") {
-    tituloBrasileiro = "O Palmeiras venceu o Campeonato Brasileiro 10 vezes sendo elas em: 1960, 1967, 1967, 1969, 1972, 1973, 1993, 1994, 2016 e 2018"
+    tituloBrasileiro = "O Palmeiras venceu o Campeonato Brasileiro 11 vezes sendo elas em: 1960, 1967, 1967, 1969, 1972, 1973, 1993, 1994, 2016, 2018 e 2022."
     brasileiro.push(tituloBrasileiro)
   }
   if (times == "Santos") {
@@ -78,7 +78,7 @@ while (times != "sair") {
     brasileiro.push(tituloBrasileiro)
   }
   if (times == "Palmeiras") {
-    tituloCopaDoBrasil = "O Palmeiras venceu a Copa do Brasil 4 vezes sendo elas em: 1998, 2012, 2015, 2020"
+    tituloCopaDoBrasil = "O Palmeiras venceu a Copa do Brasil 4 vezes sendo elas em: 1998, 2012, 2015, 2020."
     copaDoBrasil.push(tituloCopaDoBrasil)
   }
   if (times == "Santos") {
@@ -86,7 +86,7 @@ while (times != "sair") {
     copaDoBrasil.push(tituloCopaDoBrasil)
   }
   if (times == "Flamengo") {
-    tituloCopaDoBrasil = "O Flamengo venceu a Copa do Brasil 3 vezes sendo elas em: 1990, 2006, 2013."
+    tituloCopaDoBrasil = "O Flamengo venceu a Copa do Brasil 4 vezes sendo elas em: 1990, 2006, 2013 e 2022."
     copaDoBrasil.push(tituloCopaDoBrasil)
   }
   if (times == "Corinthians") {
@@ -150,7 +150,7 @@ while (times != "sair") {
     libertadores.push(tituloLibertadores)
   }
   if (times == "Flamengo") {
-    tituloLibertadores = "O Flamengo venceu a Copa Libertadores 2 vezes sendo elas em: 1981 e 2019."
+    tituloLibertadores = "O Flamengo venceu a Copa Libertadores 3 vezes sendo elas em: 1981, 2019 e 2022."
     libertadores.push(tituloLibertadores)
   }
   if (times == "Corinthians") {
